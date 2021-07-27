@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/setup-go@9fbc767707c286e568c92927bbf57d76b73e0892
       env:
-      - ACTIONS_ALLOW_UNSECURE_COMMANDS: "True"
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: "True"
       with:
         go-version: '1.14.x'
     - name: Display a greeting
